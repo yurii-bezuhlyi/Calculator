@@ -9,6 +9,8 @@ import java.lang.reflect.Constructor;
 import java.math.BigDecimal;
 import java.util.*;
 
+import static com.teamdev.bezugliy.calculator.impl.EvaluationState.START;
+
 public class EvaluationContext implements StateMachineContext<
         EvaluationState, BigDecimal> {
 
@@ -17,8 +19,8 @@ public class EvaluationContext implements StateMachineContext<
 
     private final Deque<BigDecimal> operandStack = new ArrayDeque<>();
     private final Deque<BinaryOperator> operatorStack = new ArrayDeque<>();
-    private final Deque<List<Integer>> bracketStack = new ArrayDeque<>();
-    private final Deque<NavigableMap<String,List<Integer>>> functionStack = new ArrayDeque<>();
+    private final Deque<ElementOfBracketStack> bracketStack = new ArrayDeque<>();
+    private final Deque<ElementOfFunctionStack> functionStack = new ArrayDeque<>();
 
     public EvaluationContext(String expression) {
         expressionReader = new MathExpressionReader(expression);
@@ -51,9 +53,9 @@ public class EvaluationContext implements StateMachineContext<
         do {
             topOperator = operatorStack.peek();
 
-            if ((bracketStack.size() != 0 && operatorStack.size() <= bracketStack.peek().get(0)) ||
-                    functionStack.size() != 0 && operatorStack.size() <= functionStack.peek().firstEntry().getValue().get(0))
-                break;                           //example: <"sum", 3, 1>  sum - function, 3 - operatorStack size, 1 - number of function arguments
+            if ((bracketStack.size() != 0 && operatorStack.size() <= bracketStack.peek().getNumberOperatorsBeforeBracket()) ||
+                    functionStack.size() != 0 && operatorStack.size() <= functionStack.peek().getNumberOperatorsBeforeFunction())
+                break;
 
             if (topOperator != null) {
                 executeBinaryOperator(topOperator);
@@ -74,9 +76,9 @@ public class EvaluationContext implements StateMachineContext<
         do {
             topOperator = operatorStack.peek();
 
-            if ((bracketStack.size() != 0 && operatorStack.size() <= bracketStack.peek().get(0)) ||
-                    (functionStack.size() != 0 && operatorStack.size() <= functionStack.peek().firstEntry().getValue().get(0)))
-                break;                           //example: <"sum", 3, 1>  sum - function, 3 - operatorStack size, 1 - number of function arguments
+            if ((bracketStack.size() != 0 && operatorStack.size() <= bracketStack.peek().getNumberOperatorsBeforeBracket()) ||
+                    (functionStack.size() != 0 && operatorStack.size() <= functionStack.peek().getNumberOperatorsBeforeFunction()))
+                break;
             if (topOperator != null) {
 
                 if (binaryOperator.compareTo(topOperator) < 1) {
@@ -92,26 +94,18 @@ public class EvaluationContext implements StateMachineContext<
 
         operatorStack.push(binaryOperator);
     }
-    public void pushFunction(String function/*Function function*/) {
-        NavigableMap</*Function*/String,List<Integer>> nm = new TreeMap<String/*Function*/,List<Integer>>();
-        List<Integer> l = new ArrayList<Integer>();
-        l.add(0,operatorStack.size());
-        l.add(1,0);
-        l.add(2,getExpressionReader().getReadPosition());
-        nm.put(function,l);
-        functionStack.push(nm);
+    public void pushFunction(String functionName) {
+        //1-st parameter - function name, 2-nd - number of function arguments,
+        //3-rd - function position in expression, 4-th - operators stack size
+        functionStack.push(new ElementOfFunctionStack(functionName,0,getExpressionReader().getReadPosition(),operatorStack.size()));
     }
     public void incCountFunctionStackLastOperators(){
         if (operandStack.size() == 0) {
             return;
         }
-        NavigableMap<String,List<Integer>> nm = functionStack.pop();
-        List<Integer> l = nm.get(nm.firstKey());
-        int i = l.get(1);
-        i ++;
-        l.add(1,i);
-        nm.put(nm.firstKey(),l);
-        functionStack.push(nm);
+        ElementOfFunctionStack elementOfFunctionStack = functionStack.pop();
+        elementOfFunctionStack.incNumberOfFunctionArguments();
+        functionStack.push(elementOfFunctionStack);
     }
 
     private void executeBinaryOperator(BinaryOperator topOperator) {
@@ -129,20 +123,27 @@ public class EvaluationContext implements StateMachineContext<
             executeBinaryOperator(operatorStack.pop());
         }
     }
+    public boolean insertComma() {
+        if (getFunctionStackSize() > 0) {
+            calculateAfterComma();
+            incCountFunctionStackLastOperators();
+            getExpressionReader().incReadPosition();
+            setState(START);
+            return true;
+        }
+        return false;
+    }
 
     public void pushOpeningBracket() {
-        List<Integer> l = new ArrayList<Integer>();
-        l.add(0,operatorStack.size());
-        l.add(1,getExpressionReader().getReadPosition());
-        bracketStack.push(l);
+        bracketStack.push(new ElementOfBracketStack(operatorStack.size(),getExpressionReader().getReadPosition()));
     }
 
 
     public void pushClosingBracket() {
-        if ((functionStack.size() > 0 && bracketStack.size() > 0 && functionStack.peek().firstEntry().getValue().get(2) < bracketStack.peek().get(1))
+        if ((functionStack.size() > 0 && bracketStack.size() > 0 && functionStack.peek().getFunctionPositionInExpression() < bracketStack.peek().getBracketPositionInExpression())
                 || functionStack.size() == 0) {
 
-            final int operatorStackSize = bracketStack.pop().get(0);
+            final int operatorStackSize = bracketStack.pop().getNumberOperatorsBeforeBracket();
             while (operatorStack.size() > operatorStackSize) {
                 executeBinaryOperator(operatorStack.pop());
             }
@@ -150,18 +151,17 @@ public class EvaluationContext implements StateMachineContext<
         else {
             incCountFunctionStackLastOperators();
             calculate();
-            final NavigableMap</*Function*/String,List<Integer>> nm = functionStack.pop();
-            final List<Integer> l = nm.get(nm.firstKey());
-            int i = l.get(1);
-            ArrayList<BigDecimal> ss = new ArrayList<>();
+            final ElementOfFunctionStack elementOfFunctionStack = functionStack.pop();
+            int i = elementOfFunctionStack.getNumberOfFunctionArguments();
+            ArrayList<BigDecimal> functionArguments = new ArrayList<>();
 
             while (i > 0) {
-                ss.add(operandStack.pop());
+                functionArguments.add(operandStack.pop());
                 i--;
             }
-            String function = nm.firstKey();
-            Function f = new FunctionFactory().createFunction(function);
-            final BigDecimal result = f.evaluate(ss);
+            final String functionName = elementOfFunctionStack.getFunctionName();
+            Function function = new FunctionFactory().createFunction(functionName);
+            final BigDecimal result = function.evaluate(functionArguments);
 
             pushOperand(result);
         }

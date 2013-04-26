@@ -12,6 +12,7 @@
         <module>DataModel</module>
         <module>StateMachine</module>
         <module>Service</module>
+        <module>GUI</module>
     </modules>
 
 

@@ -1,6 +1,6 @@
-package com.teamdev.bezugliy.calculator.impl.swingClass;
+package com.teamdev.buzugliy.calculator.swingClass;
 
-import com.teamdev.bezugliy.calculator.impl.Calculator;
+import com.teamdev.bezugliy.calculator.impl.EvaluationStateMachine;
 import com.teamdev.bezugliy.calculator.impl.EvaluationException;
 
 import javax.swing.*;
@@ -56,11 +56,19 @@ class ButtonPanel extends JPanel {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
-                final BigDecimal result = new Calculator().evaluate(textField.getText());
+                final BigDecimal result = new EvaluationStateMachine().evaluate(textField.getText());
                 textArea.setText(result.toString());
-            } catch (EvaluationException e1) {
+            }
+            catch (EvaluationException e1) {
                 textField.setCaretPosition(e1.getErrorPosition());
                 textArea.setText(e1.getMessage());
+                calcButton.setFocusable(false);
+                textArea.setFocusable(false);
+                textField.setFocusable(true);
+            }
+            catch (Exception ex) {
+                //textField.setCaretPosition(e.);
+                textArea.setText(ex.getMessage());
                 calcButton.setFocusable(false);
                 textArea.setFocusable(false);
                 textField.setFocusable(true);

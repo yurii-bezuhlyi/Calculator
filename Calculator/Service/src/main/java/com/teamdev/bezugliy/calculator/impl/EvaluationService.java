@@ -29,15 +29,9 @@ public class EvaluationService implements
                           EvaluationContext context) {
 
         context.getExpressionReader().skipSpaces();
+
         if (!context.getExpressionReader().outExpression() && context.getExpressionReader().getCurrentChar() == ',') {
-            if (context.getFunctionStackSize() > 0) {
-                context.calculateAfterComma();
-                context.incCountFunctionStackLastOperators();
-                context.getExpressionReader().incReadPosition();
-                context.setState(START);
-                return true;
-            }
-            return false;
+            return context.insertComma();
         }
 
         final MathExpressionParser parser = parserRegistry.get(possibleState);

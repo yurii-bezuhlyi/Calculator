@@ -34,7 +34,6 @@ public class MathExpressionReader {
         readPosition++;
     }
 
-
     public void setReadPosition(int readPosition) {
         this.readPosition = readPosition;
     }

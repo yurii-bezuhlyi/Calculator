@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Calculator.iml" filepath="$PROJECT_DIR$/Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataModel/DataModel.iml" filepath="$PROJECT_DIR$/DataModel/DataModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI/GUI.iml" filepath="$PROJECT_DIR$/GUI/GUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Service/Service.iml" filepath="$PROJECT_DIR$/Service/Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/StateMachine/StateMachine.iml" filepath="$PROJECT_DIR$/StateMachine/StateMachine.iml" />
     </modules>

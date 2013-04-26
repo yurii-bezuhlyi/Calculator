@@ -9,29 +9,29 @@ public class FunctionParser implements MathExpressionParser {
     @Override
     public EvaluationCommand parse(MathExpressionReader reader) {
         char tmp = reader.getCurrentChar();
-        int i = 0;
         if (tmp >= 'A' && tmp <= 'z') {
-            String funcTmp = new String();
-            funcTmp += tmp;
-            i = reader.getReadPosition();
-            while (true) {
-                tmp = reader.getExpression().charAt(++i);
-                if (tmp >= 'A' && tmp <= 'z') {
-                    funcTmp += tmp;
-                }
-                else {
+            StringBuffer functionName = new StringBuffer();
+            functionName.append(tmp);
+            reader.incReadPosition();
+            while (!reader.endOfExpression()) {
+                tmp = reader.getCurrentChar();
+                if (tmp < 'A' || tmp > 'z') {
                     break;
                 }
+                functionName.append(tmp);
+                reader.incReadPosition();
             }
-            if (reader.getExpression().charAt(i) == '(') {
-                reader.setReadPosition(++i);
-                funcTmp = funcTmp.toLowerCase();
-                switch (funcTmp){
+            if (reader.endOfExpression()) {
+                return null;
+            }
+            if (reader.getCurrentChar() == '(') {
+                reader.incReadPosition();
+                switch (functionName.toString().toLowerCase()){
                     case "min" :
                     case "max" :
                     case "sqrt" :
                     case "sum" :
-                        return new EvaluationFunctionCommand(funcTmp);
+                        return new EvaluationFunctionCommand(functionName.toString().toLowerCase());
                     default:
                         return null;
                 }

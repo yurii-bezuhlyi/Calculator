@@ -12,8 +12,7 @@ public class EvaluationFunctionCommand implements EvaluationCommand {
         this.representation = representation;
     }
     @Override
-    public void evaluate(EvaluationContext context/*, String representation*/) {
-        //Function function = new FunctionFactory().createFunction(representation);
-        context.pushFunction(representation/*function*/);
+    public void evaluate(EvaluationContext context) {
+        context.pushFunction(representation);
     }
 }

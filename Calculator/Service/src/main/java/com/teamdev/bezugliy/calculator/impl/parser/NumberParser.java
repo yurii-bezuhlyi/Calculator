@@ -10,50 +10,36 @@ import com.teamdev.bezugliy.calculator.impl.command.EvaluationCommand;
 
 public class NumberParser implements MathExpressionParser {
 
-    private static final NumberFormat NUMBER_FORMAT =
-            new DecimalFormat("0.0");
+    /*private static final NumberFormat NUMBER_FORMAT =
+            new DecimalFormat("0.0"); */
 
     @Override
     public EvaluationCommand parse(MathExpressionReader reader) {
 
-        /*final ParsePosition position =
-                new ParsePosition(reader.getReadPosition());
-
-        final Number number =
-                NUMBER_FORMAT.parse(reader.getExpression(), position);
-
-        if (position.getErrorIndex() < 0) {
-
-            final int readPosition = position.getIndex();
-            reader.setReadPosition(readPosition);
-
-            return new EvaluateNumberCommand(
-                    new BigDecimal(number.doubleValue()));
-        }*/
-        /*final ParsePosition position =
-                new ParsePosition(reader.getReadPosition());
-
-        final Number number =
-                NUMBER_FORMAT.parse(reader.getExpression(), position); */
         char tmp = reader.getCurrentChar();
+        StringBuffer numberTmp = new StringBuffer();
+        if (tmp == '-' && !reader.endOfExpression()) {
+            numberTmp.append(tmp);
+            reader.incReadPosition();
+            if (reader.outExpression())
+                return null;
+            tmp = reader.getCurrentChar();
+        }
         if (tmp >= '0' && tmp <= '9') {
-            String numberTmp = new String();
-            numberTmp += tmp;
-
+            numberTmp.append(tmp);
             reader.incReadPosition();
             while (!reader.outExpression()) {
                 tmp = reader.getCurrentChar();
                 if (tmp != '.' && (tmp < '0' || tmp > '9'))
                     break;
-                numberTmp += tmp;
+                numberTmp.append(tmp);
                 reader.incReadPosition();
             }
             if (tmp == '.')
-                numberTmp += '0';
+                numberTmp.append('0');
             return new EvaluateNumberCommand(
-                    new BigDecimal(numberTmp/*number.doubleValue()*/));
+                    new BigDecimal(numberTmp.toString()));
         }
-
         return null;
     }
 }

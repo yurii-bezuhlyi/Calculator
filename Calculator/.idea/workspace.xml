@@ -6,17 +6,17 @@
     <ignored path=".idea/workspace.xml" />
     <file path="J:/testCalculator/pom.xml" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1365843137963" ignored="false" />
     <file path="J:/testCalculator/untitled/pom.xml" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1365843137963" ignored="false" />
-    <file path="/Calculator.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366555427109" ignored="false" />
-    <file path="/EvaluationService.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366546360716" ignored="false" />
+    <file path="/Calculator.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366875465452" ignored="false" />
+    <file path="/EvaluationService.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366975386790" ignored="false" />
     <file path="/BinaryOperatorFactory.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1365845230587" ignored="false" />
-    <file path="/NumberParser.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366031304584" ignored="false" />
-    <file path="/EvaluationContext.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366710692928" ignored="false" />
+    <file path="/NumberParser.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366976456121" ignored="false" />
+    <file path="/EvaluationContext.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366975295599" ignored="false" />
     <file path="/MathExpressionReader.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366547229544" ignored="false" />
-    <file path="$USER_HOME$/Мои документы/test/.idea/workspace.xml" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366711725789" ignored="false" />
+    <file path="$USER_HOME$/Мои документы/test/.idea/workspace.xml" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366980526927" ignored="false" />
     <file path="/TestCalc.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366700528649" ignored="false" />
     <file path="/MaxFunction.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366625397687" ignored="false" />
     <file path="/Function.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366008927138" ignored="false" />
-    <file path="/fragment.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366554318120" ignored="false" />
+    <file path="/fragment.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366883481742" ignored="false" />
     <file path="/MinFunction.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366625875171" ignored="false" />
     <file path="/PowerBinaryOperator.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366009089737" ignored="false" />
     <file path="/SqrtFunction.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366625922735" ignored="false" />
@@ -29,16 +29,18 @@
     <file path="$PROJECT_DIR$/../str/src/Main.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366014240757" ignored="false" />
     <file path="/Main.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366014170630" ignored="false" />
     <file path="/EvaluationFunctionCommand.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366028296894" ignored="false" />
-    <file path="/FunctionParser.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366017234587" ignored="false" />
+    <file path="/FunctionParser.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366980033884" ignored="false" />
     <file path="/SumFunction.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366625950314" ignored="false" />
     <file path="/SwingDialog.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366551241509" ignored="false" />
     <file path="/DivideBinaryOperator.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366104177630" ignored="false" />
-    <file path="/pom.xml" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366628162682" ignored="false" />
-    <file path="/Dialog.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366633389865" ignored="false" />
-    <file path="/ButtonPanel.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366699940037" ignored="false" />
+    <file path="/pom.xml" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366881016241" ignored="false" />
+    <file path="/Dialog.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366995052741" ignored="false" />
+    <file path="/ButtonPanel.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366881615479" ignored="false" />
     <file path="/CalcAction.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366554029919" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/Calculator/.idea/workspace.xml" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366711725789" ignored="false" />
-    <file path="/TestCalculator.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366711310229" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/Calculator/.idea/workspace.xml" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366980526927" ignored="false" />
+    <file path="/TestCalculator.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366994660821" ignored="false" />
+    <file path="/ElementOfFunctionStack.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366894038751" ignored="false" />
+    <file path="/ElementOfBracketStack.java" changelist="4dba3a98-9243-477d-9193-e5bf27c0f380" time="1366894391231" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,36 +55,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/SqrtFunction.java" line="10" class="com.teamdev.bezugliy.calculator.function.SqrtFunction" package="com.teamdev.bezugliy.calculator.function">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationContext.java" line="141" class="com.teamdev.bezugliy.calculator.impl.EvaluationContext" package="com.teamdev.bezugliy.calculator.impl">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -117,7 +90,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -127,66 +100,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ParentRunner.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
+      <file leaf-file-name="FunctionParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/parser/functionParser/FunctionParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="16" selection-start="2766" selection-end="2766" vertical-scroll-proportion="-4.72">
+            <state line="14" column="29" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JUnitCore.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/JUnitCore.class">
+      <file leaf-file-name="EvaluationFunctionCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/command/functionCommand/EvaluationFunctionCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="35" selection-start="980" selection-end="980" vertical-scroll-proportion="-4.88">
+            <state line="14" column="43" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/Calculator.java">
+      <file leaf-file-name="NumberParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/parser/NumberParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="22" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0">
+            <state line="21" column="65" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvaluationContext.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationContext.java">
+      <file leaf-file-name="MinFunction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/MinFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="0" selection-start="5894" selection-end="5894" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#3434#3468#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClosingBracketCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/command/ClosingBracketCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EvaluationService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractStateMachine.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StateMachine/src/main/java/com/teamdev/bezugliy/calculator/statemachine/AbstractStateMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="7" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
+            <state line="12" column="78" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,27 +139,52 @@
       <file leaf-file-name="SqrtFunction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/SqrtFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCalculator.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Service/src/test/java/com/teamdev/bezugliy/calculator/tests/TestCalculator.java">
+      <file leaf-file-name="EvaluationContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="72" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.77446103">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="130" column="12" selection-start="4555" selection-end="4555" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Service/pom.xml">
+      <file leaf-file-name="Dialog.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GUI/src/main/java/com/teamdev/buzugliy/calculator/swingClass/Dialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="19" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
+            <state line="6" column="44" selection-start="178" selection-end="178" vertical-scroll-proportion="0.19465649">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumFunction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/SumFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="52" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxFunction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/MaxFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="78" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCalculator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Service/src/test/java/com/teamdev/bezugliy/calculator/tests/TestCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="85" selection-start="3010" selection-end="3010" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -231,22 +200,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/swingClass/SwingDialog.java" />
-        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/swingClass/calcAction.java" />
-        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/swingClass/CalcAction.java" />
-        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/Calculator.java" />
-        <option value="$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/Function.java" />
+        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationStateMachine.java" />
+        <option value="$PROJECT_DIR$/GUI/src/main/java/com/teamdev/buzugliy/calculator/swingClass/ButtonPanel.java" />
+        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/ElementOfOStack.java" />
+        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/ElementOfFunctionStack.java" />
+        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/ElementOfBracketStack.java" />
+        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationContext.java" />
+        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationService.java" />
+        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/MathExpressionReader.java" />
+        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/command/functionCommand/EvaluationFunctionCommand.java" />
+        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/parser/functionParser/FunctionParser.java" />
+        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/parser/NumberParser.java" />
         <option value="$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/MaxFunction.java" />
         <option value="$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/MinFunction.java" />
-        <option value="$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/SqrtFunction.java" />
         <option value="$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/SumFunction.java" />
-        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/swingClass/Dialog.java" />
-        <option value="$PROJECT_DIR$/Service/src/test/java/com/teamdev/bezugliy/calculator/tests/TestCalc.java" />
-        <option value="$PROJECT_DIR$/Service/src/test/java/com/teamdev/bezugliy/calculator/tests/CalcListener.java" />
-        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/swingClass/ButtonPanel.java" />
-        <option value="$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationContext.java" />
-        <option value="$PROJECT_DIR$/Service/pom.xml" />
         <option value="$PROJECT_DIR$/Service/src/test/java/com/teamdev/bezugliy/calculator/tests/TestCalculator.java" />
+        <option value="$PROJECT_DIR$/GUI/src/main/java/com/teamdev/buzugliy/calculator/swingClass/Dialog.java" />
       </list>
     </option>
   </component>
@@ -282,11 +251,41 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="GUI" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="GUI" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1016" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -333,8 +332,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -368,76 +367,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="StateMachine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StateMachine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StateMachine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StateMachine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statemachine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -547,7 +476,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Service" />
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -563,7 +546,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -685,40 +698,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="operator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataModel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="function" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -740,6 +719,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -748,13 +728,36 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.teamdev.bezugliy.calculator.impl" />
       <recent name="com.teamdev.bezugliy.calculator.function" />
       <recent name="com.teamdev.bezugliy.calculator.impl.parser.functionParser" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCalculator">
-    <configuration default="false" name="Calculator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.teamdev.bezugliy.calculator.impl.Calculator" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration default="false" name="EvaluationStateMachine" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.teamdev.bezugliy.calculator.impl.EvaluationStateMachine" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Service" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestCalculator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.teamdev.bezugliy.calculator.tests.TestCalculator" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -797,28 +800,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestCalculator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.teamdev.bezugliy.calculator.tests.TestCalculator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Service" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="TestCalculator.getBracketsInsideFunctionTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -838,6 +819,28 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Calculator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.teamdev.buzugliy.calculator.Calculator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GUI" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -929,18 +932,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Calculator" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestCalc.getSumTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestCalculator" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.EvaluationStateMachine" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestCalculator" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestCalc.getSumTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.TestCalculator.getBracketsInsideFunctionTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Calculator" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestCalculator" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCalculator.getBracketsInsideFunctionTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Calculator" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCalc.getSumTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Calculator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestCalculator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EvaluationStateMachine" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCalculator.getBracketsInsideFunctionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCalc.getSumTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -963,8 +968,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1016" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -974,16 +979,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11710677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.282434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17309754" sideWeight="0.7531866" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18881686" sideWeight="0.72716486" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18595926" sideWeight="0.7531866" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24681345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2771475" sideWeight="0.72716486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2728351" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1048,88 +1053,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="489" selection-end="489" vertical-scroll-proportion="-7.48">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/rules/RunRules.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="470" selection-end="470" vertical-scroll-proportion="-6.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/rules/ExpectedException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="20" selection-start="1361" selection-end="1361" vertical-scroll-proportion="-10.24">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/Suite.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="16" selection-start="2766" selection-end="2766" vertical-scroll-proportion="-4.72">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="980" selection-end="980" vertical-scroll-proportion="-4.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="22" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/SqrtFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="0" selection-start="5894" selection-end="5894" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#3434#3468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/command/ClosingBracketCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+        <state line="31" column="27" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1143,24 +1069,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StateMachine/src/main/java/com/teamdev/bezugliy/calculator/statemachine/AbstractStateMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/command/ClosingBracketCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/command/EvaluateBinaryOperatorCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/command/functionCommand/EvaluationFunctionCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
+        <state line="14" column="43" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/parser/functionParser/FunctionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/parser/NumberParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="65" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/MinFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="78" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/SumFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="52" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Service/src/test/java/com/teamdev/bezugliy/calculator/tests/TestCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="72" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.77446103">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="72" column="85" selection-start="3010" selection-end="3010" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/MaxFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="78" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataModel/src/main/java/com/teamdev/bezugliy/calculator/function/SqrtFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/EvaluationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="12" selection-start="4555" selection-end="4555" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Service/src/main/java/com/teamdev/bezugliy/calculator/impl/MathExpressionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="19" selection-start="903" selection-end="903" vertical-scroll-proportion="1.2462406">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/com/teamdev/buzugliy/calculator/swingClass/Dialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="178" selection-end="178" vertical-scroll-proportion="0.19465649">
+          <folding />
         </state>
       </provider>
     </entry>
